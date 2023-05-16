@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "priority": 1000,
+  "package": "dev.xkmc.enchantment_unlimited.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "magic_protection_overhaul.refmap.json",
+  "mixins": [
+	"MutableComponentMixin",
+	"EnchantmentHelperMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
